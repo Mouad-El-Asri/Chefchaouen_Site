@@ -23,13 +23,15 @@ h2 {
 h3 {
 	color: #d0aaff;
 	font-size: 20px;
+	margin-top: 10px;
 }
 
 /* links */
 
 a {
 	color: #ef5839;
-	text-decoration-style: dotted;
+	text-decoration: none;
+	font-weight: 500;
 }
 
 a:hover,
@@ -58,6 +60,10 @@ header,
 	margin: 0 auto;
 }
 
+p {
+	line-height: 23px;
+}
+
 /* images */
 
 .sneakers-img {
@@ -74,8 +80,41 @@ header,
 	border-radius: 5px;
 }
 
+/* buttons */
+
+.btn {
+	display: inline-block;
+	border-radius: 5px;
+	padding: 10px 19px;
+	cursor: pointer;
+	font-weight: 500;
+}
+
+.btn:hover,
+.btn:active {
+	color: #2B283A;
+	background-color: #f3e885;
+}
+
+.dark-btn {
+	color: #f5f5f5;
+	background-color: #5f29a3;
+}
+
+.mid-btn {
+	color: #5f29a3;
+	background-color: #f0e0ff;
+}
+
+.light-btn {
+	color: #5f29a3;
+	background-color: #f5f5f5;
+}
+
+/* footer */
+
 footer {
 	color: #5f29a3;
 	text-align: center;
-	padding: 20px 0px;
+	padding: 10px 0px;
 }
