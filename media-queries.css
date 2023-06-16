@@ -1,18 +1,5 @@
 /* media queries */
 
-/* min-width: 480px */
-
-@media (min-width: 480px) {
-	.imgs-container {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-	}
-	.feature-img {
-		width: 49%;
-	}
-}
-
 /* min-width: 768px */
 
 @media (min-width: 768px) {
@@ -44,5 +31,33 @@
 	.btn {
 		display: inline-block;
 		margin-right: 0.5em;
+	}
+
+	nav ul, header .container {
+		display: flex;
+	}
+
+	nav ul {
+		gap: 30px;
+	}
+	header .container {
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+/* max-width: 768px */
+
+@media (max-width: 768px) {
+	header {
+		text-align: center;
+	}
+
+	nav {
+		margin-top: 1.2em;
+	}
+
+	li:not(:last-child) {
+		border-bottom: 1px solid #a190b6;
 	}
 }
