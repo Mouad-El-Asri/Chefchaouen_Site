@@ -12,18 +12,23 @@ h3 {
 }
 
 h1 {
+	font-size: 2.25rem;
 	color: #f5f5f5;
-	font-size: 36px;
 }
 
 h2 {
+	font-size: 1.75rem;
 	margin-top: 0px;
+}
+
+.section-1 h2 {
+	color: #451c7a;
 }
 
 h3 {
 	color: #d0aaff;
-	font-size: 20px;
-	margin-top: 10px;
+	font-size: 1.25rem;
+	margin-top: 0.625em;
 }
 
 /* links */
@@ -43,7 +48,7 @@ a:active {
 
 header,
 section {
-	padding: 45px 0px;
+	padding: 2.875em 0px;
 }
 
 header,
@@ -71,7 +76,7 @@ p {
 	display: block;
 	max-width: 650px;
 	width: 100%;
-	margin: 0 auto 32px;
+	margin: 0 auto 2em;
 }
 
 .imgs-container {
@@ -87,11 +92,14 @@ p {
 /* buttons */
 
 .btn {
+	font-size: 1.125rem;
 	display: inline-block;
 	border-radius: 5px;
-	padding: 10px 19px;
+	padding: 0.5em 1em;
 	cursor: pointer;
 	font-weight: 500;
+	margin-right: 0.5em;
+	margin-bottom: 1em;
 }
 
 .btn:hover,
